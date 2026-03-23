@@ -20,20 +20,20 @@ This dataset was initially used in our earlier publication (Song et al., Nature 
 We provide a step-by-step, very detailed instructions to run the scripts that replicate the key findings of this paper: 
 [Code Guide](https://github.com/jinke828/socialaha/blob/main/Code%20guide_JK.pdf); Software's license: Apache License 2.0
 
-First run: `.conda env create -f environment.yml`
+First run: `conda env create -f environment.yml`
 then activate the environment before you run the following code: `conda activate socialaha`
 
-* `.step01_load-brain.ipynb` — Loads fMRI data, extracts ROI time series, applies preprocessing, and segments signals into events and impression periods.
-* `.step02_count_aha.ipynb` — Counts and summarizes the distribution of “aha” moments across participants.
-* `.step03_impression-updates.py` — Quantifies how character impressions evolve over time using text embeddings and similarity analyses.
-* `.step03_plot_impression_updates.R` — Models and visualizes how impression similarity changes with temporal distance.
-* `.step04_IS-RSA` — Tests whether neural synchrony predicts shared impressions using IS-RSA with bootstrapping.
-* `.step05a_IS-RSA-mediation.ipynb` — Constructs dataset linking pre/post impressions and neural synchrony for mediation analysis.
-* `.step05b_mediation.R` — Runs ROI-wise mediation to test whether neural synchrony mediates impression updating.
-* `.step05c_mediation_rSTS.R` — Performs high-precision mediation analysis specifically for right STS.
-* `.step06_compute_mtm_neural-pattern-shift.ipynb` — Computes moment-to-moment neural pattern shifts across time (TR-by-TR dissimilarity).
-* `.step07_neural-pattern-shift--social_insight.py` — Tests whether neural shifts increase around character-related “aha” moments.
-* `.step08_neural_pattern_shift-impression_update.py` — Links neural shifts at “aha” moments to the magnitude of impression updates.
+* `step01_load-brain.ipynb` — Loads fMRI data, extracts ROI time series, applies preprocessing, and segments signals into events and impression periods.
+* `step02_count_aha.ipynb` — Counts and summarizes the distribution of “aha” moments across participants.
+* `step03_impression-updates.py` — Quantifies how character impressions evolve over time using text embeddings and similarity analyses.
+* `step03_plot_impression_updates.R` — Models and visualizes how impression similarity changes with temporal distance.
+* `step04_IS-RSA` — Tests whether neural synchrony predicts shared impressions using IS-RSA with bootstrapping.
+* `step05a_IS-RSA-mediation.ipynb` — Constructs dataset linking pre/post impressions and neural synchrony for mediation analysis.
+* `step05b_mediation.R` — Runs ROI-wise mediation to test whether neural synchrony mediates impression updating.
+* `step05c_mediation_rSTS.R` — Performs high-precision mediation analysis specifically for right STS.
+* `step06_compute_mtm_neural-pattern-shift.ipynb` — Computes moment-to-moment neural pattern shifts across time (TR-by-TR dissimilarity).
+* `step07_neural-pattern-shift--social_insight.py` — Tests whether neural shifts increase around character-related “aha” moments.
+* `step08_neural_pattern_shift-impression_update.py` — Links neural shifts at “aha” moments to the magnitude of impression updates.
 
 
 **Data Flow**
