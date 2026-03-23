@@ -1,0 +1,15 @@
+onset	duration	index
+0	25	19
+25	42	10
+67	60	1
+127	46	32
+173	82	44
+NaN	NaN	19
+260	22	10
+NaN	NaN	1
+NaN	NaN	32
+282	19	44
+301	16	kate
+318	8	jack
+326	17	kevin
+344	17	randall
