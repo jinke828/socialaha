@@ -5,7 +5,7 @@
 Correspondence to jin.ke@yale.edu and hayoung@wustl.edu.
 please feel free to reach out with questions or inquiries.
 
-**SocialAha Dataset**
+**The SocialAha Dataset**
 
 36 participants watched a temporally scrambled version of the first episode of NBC's _This Is Us_ while undergoing fMRI. Over 10 runs, participants viewed the movies while indicating and explaining moments of insight, and verbally reported impressions of the characters.
 
