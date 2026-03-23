@@ -11,6 +11,7 @@ please feel free to reach out with questions or inquiries.
 
 * The raw and preprocessed MRI data are publicly available on OpenNeuro. Link: https://openneuro.org/datasets/ds005658
 * The associated behavioral data are available here: https://github.com/jinke828/socialaha/tree/main/data/beh
+* Intermediate brain data are available here for convenience in replicating the findings: https://github.com/jinke828/socialaha/tree/main/data/brain
 
 This dataset was initially used in our earlier publication (Song et al., Nature Communications, 2026): https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.12.642853.full.pdf
    
