@@ -20,6 +20,9 @@ This dataset was initially used in our earlier publication (Song et al., Nature 
 We provide a step-by-step, very detailed instructions to run the scripts that replicate the key findings of this paper: 
 [Code Guide](https://github.com/jinke828/socialaha/blob/main/Code%20guide_JK.pdf); Software's license: Apache License 2.0
 
+First run: `.conda env create -f environment.yml`
+then activate the environment before you run the following code: `.conda activate socialaha`
+
 * `.step01_load-brain.ipynb` — Loads fMRI data, extracts ROI time series, applies preprocessing, and segments signals into events and impression periods.
 * `.step02_count_aha.ipynb` — Counts and summarizes the distribution of “aha” moments across participants.
 * `.step03_impression-updates.py` — Quantifies how character impressions evolve over time using text embeddings and similarity analyses.
