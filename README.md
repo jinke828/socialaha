@@ -38,7 +38,7 @@ then activate the environment before you run the following code: `conda activate
 
 **Data Flow**
 1. Preprocessed fMRI (`.nii.gz`) is loaded from `./data/brain/derivatives/` (sourced from OpenNeuro ds005658)
-2. Event timing files (`.tsv`, BIDS format) from `./data/brain/events/` define movie-watching vs. impression-rating periods
+2. Event timing files (`.tsv`, BIDS format) from `./data/brain/events/` define movie-watching vs. impression-report periods
 3. Time series are extracted from 116 brain ROIs (100 cortical Schaefer + 16 subcortical Tian parcels)
 4. Intermediate results are saved as pickle files in `./data/brain/loaded_BOLD/`, `./data/brain/similarity/`, and `./data/brain/pattern_shift/`
 5. Final figures output to `./results/figures/`
