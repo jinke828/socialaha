@@ -1,0 +1,29 @@
+name: socialaha
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - setuptools>=68,<81
+  # Core data
+  - numpy
+  - pandas
+  - scipy
+  - openpyxl
+  # Neuroimaging
+  - nilearn
+  - nibabel
+  - joblib
+  # Statistics & ML
+  - statsmodels
+  # Visualization
+  - matplotlib
+  - seaborn
+  - pip:
+    # tensorflow-hub 0.16.1 imports pkg_resources, removed from setuptools>=81
+    - setuptools<81
+    # TensorFlow + Hub (for Google Universal Sentence Encoder in step03)
+    - tensorflow
+    - tensorflow-hub
+    - umap-learn
