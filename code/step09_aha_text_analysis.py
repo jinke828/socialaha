@@ -101,15 +101,6 @@ CATEGORIES = {
         'broke','ran','turned','moved','started','ended','began','finished',
         'decided','chose','chosen','tried','failed','succeeded',
     },
-    'Certainty': {
-        'definitely','clearly','obviously','certainly','sure','must',
-        'absolutely','undoubtedly','confirmed','certain',
-    },
-    'Uncertainty': {
-        'maybe','perhaps','probably','possibly','might','could',
-        'seems','seem','seemed','guess','suppose','presumably',
-        'apparently','likely','unlikely',
-    },
 }
 
 PERSON_CATS = [
