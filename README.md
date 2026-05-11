@@ -13,7 +13,7 @@ please feel free to reach out with questions or inquiries.
 * The associated behavioral data are available here: https://github.com/jinke828/socialaha/tree/main/data/beh
 * Intermediate brain data are available here for convenience in replicating the findings: https://github.com/jinke828/socialaha/tree/main/data/brain
 
-This dataset was initially used in our earlier publication (Song et al., _Nature Communications_, 2026): https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.12.642853.full.pdf
+This dataset was initially used in our earlier publication (Song et al., _Nature Communications_, 2026, Accepted): https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.12.642853.full.pdf
    
 **Code**
 
@@ -28,12 +28,17 @@ then activate the environment before you run the following code: `conda activate
 * `step03_impression-updates.py` — Quantifies how character impressions evolve over time using text embeddings and similarity analyses.
 * `step03_plot_impression_updates.R` — Models and visualizes how impression similarity changes with temporal distance.
 * `step04_IS-RSA` — Tests whether neural synchrony predicts shared impressions using IS-RSA with bootstrapping.
+* `step04b_IS-RSA-combinep` — Integrates the p-values from the before and after IS-RSA analyses using Fisher's method.
 * `step05a_IS-RSA-mediation.ipynb` — Constructs dataset linking pre/post impressions and neural synchrony for mediation analysis.
 * `step05b_mediation.R` — Runs ROI-wise mediation to test whether neural synchrony mediates impression updating.
 * `step05c_mediation_rSTS.R` — Performs high-precision mediation analysis specifically for right STS.
 * `step06_compute_mtm_neural-pattern-shift.ipynb` — Computes moment-to-moment neural pattern shifts across time (TR-by-TR dissimilarity).
 * `step07_neural-pattern-shift--social_insight.py` — Tests whether neural shifts increase around character-related “aha” moments.
 * `step08_neural_pattern_shift-impression_update.py` — Links neural shifts at “aha” moments to the magnitude of impression updates.
+* `step09_aha_text_analysis.py` — Builds logistic regression to classify character vs non-character aha, visualizes them in UMAP, and tests their differences on semantic dimensions.
+* `step10_impression_text_analysis.py` — Analyzes person vs social-event model in the impression transcripts.
+* `step11_aha_impression_relation.py` — Builds nested mixed effect model to predict impression updates from number of aha button presses.
+* `step12_person_situation_model_update.py` — Tests whether neural pattern shifts at character vs non-character aha track person vs social-event model updates in impressions.
 
 
 **Data Flow**
