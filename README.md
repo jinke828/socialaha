@@ -1,6 +1,6 @@
 # Socialaha
 
-**Jin Ke, Rhea Madhogarhia, Marvin M. Chun, Monica D. Rosenberg, Yuan Chang Leong, and Hayoung Song (2026). Neural dynamics of social impression updating during narrative comprehension. _bioRxiv_**  
+**Jin Ke, Rhea Madhogarhia, Marvin M. Chun, Monica D. Rosenberg, Yuan Chang Leong, and Hayoung Song (2026). Neural dynamics of updating social impressions during movie watching. _bioRxiv_**  
 
 Correspondence to jin.ke@yale.edu and hayoung@wustl.edu.
 please feel free to reach out with questions or inquiries.
