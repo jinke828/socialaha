@@ -28,7 +28,6 @@ then activate the environment before you run the following code: `conda activate
 * `step03_impression-updates.py` — Quantifies how character impressions evolve over time using text embeddings and similarity analyses.
 * `step03_plot_impression_updates.R` — Models and visualizes how impression similarity changes with temporal distance.
 * `step04_IS-RSA` — Tests whether neural synchrony predicts shared impressions using IS-RSA with bootstrapping.
-* `step04b_IS-RSA-combinep` — Integrates the p-values from the before and after IS-RSA analyses using Fisher's method.
 * `step05a_IS-RSA-mediation.ipynb` — Constructs dataset linking pre/post impressions and neural synchrony for mediation analysis.
 * `step05b_mediation.R` — Runs ROI-wise mediation to test whether neural synchrony mediates impression updating.
 * `step05c_mediation_rSTS.R` — Performs high-precision mediation analysis specifically for right STS.
