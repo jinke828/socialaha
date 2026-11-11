@@ -1,7 +1,11 @@
+# Fixed version: reads mediation_fixed.csv (from step05a_IS-RSA-mediation_fixed.ipynb, which
+# corrects the duplicated-character mapping in rearrange_new). Model code is unchanged;
+# outputs go to results/IS-RSA/ with a _fixed suffix.
+
 library(mediation)
 library(broom)
 
-df <- read.csv("/Users/jinke/Desktop/socialaha_github/results/IS-RSA/mediation.csv")
+df <- read.csv("/Users/jinke/Desktop/socialaha_github/results/IS-RSA/mediation_fixed.csv")
 
 roi_cols <- paste0("brain_sim_", 0:115)
 
@@ -68,11 +72,11 @@ for (roi in roi_cols) {
 
 write.csv(
   results_tbl,
-  "/Users/jinke/Downloads/mediation_results_all_rois.csv",
+  "/Users/jinke/Desktop/socialaha_github/results/IS-RSA/mediation_results_all_rois_fixed.csv",
   row.names = FALSE
 )
 
 saveRDS(
   results,
-  "/Users/jinke/Downloads/mediation_objects_all_rois.rds"
+  "/Users/jinke/Desktop/socialaha_github/results/IS-RSA/mediation_objects_all_rois_fixed.rds"
 )
